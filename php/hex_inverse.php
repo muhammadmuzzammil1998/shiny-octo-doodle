@@ -1,5 +1,5 @@
 <?php
-  function inverse($color){
+  function hex_inverse($color){
     $color = str_replace('#', '', $color);
     $rgb = '';
     for ($x=0;$x<3;$x++){
